@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="edu.dcccd.RockPaperScissors">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <focusable value="false"/>
+      <maximumSize width="450" height="150"/>
+      <minimumSize width="450" height="150"/>
+      <preferredSize width="450" height="150"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="6a6ce" binding="userPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="West"/>
+        <properties>
+          <inheritsPopupMenu value="true"/>
+          <maximumSize width="100" height="100"/>
+          <minimumSize width="100" height="100"/>
+          <preferredSize width="100" height="100"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="41999" class="javax.swing.JLabel" binding="userChoice">
+            <constraints/>
+            <properties>
+              <enabled value="true"/>
+              <font size="16" style="1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="User Choice"/>
+              <verticalAlignment value="1"/>
+              <verticalTextPosition value="1"/>
+            </properties>
+          </component>
+          <vspacer id="e8e5a">
+            <constraints/>
+          </vspacer>
+          <component id="faeb6" class="javax.swing.JLabel" binding="userLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value=""/>
+              <verticalTextPosition value="1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c2366" binding="centerPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <vspacer id="39ea8">
+            <constraints/>
+          </vspacer>
+          <vspacer id="cc5d5">
+            <constraints/>
+          </vspacer>
+          <vspacer id="19a47">
+            <constraints/>
+          </vspacer>
+          <component id="69502" class="javax.swing.JTextArea" binding="result">
+            <constraints/>
+            <properties>
+              <background color="-855310"/>
+              <font size="16" style="1"/>
+              <minimumSize width="100" height="17"/>
+            </properties>
+          </component>
+          <vspacer id="310fa">
+            <constraints/>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="2eecd" binding="computerPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="East"/>
+        <properties>
+          <maximumSize width="100" height="200"/>
+          <minimumSize width="100" height="200"/>
+          <preferredSize width="100" height="200"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e4f4b" class="javax.swing.JLabel" binding="computerChoice">
+            <constraints/>
+            <properties>
+              <font size="16" style="1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <maximumSize width="100" height="16"/>
+              <minimumSize width="100" height="16"/>
+              <text value="Computer"/>
+              <verticalAlignment value="1"/>
+              <verticalTextPosition value="1"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+          <vspacer id="453b8">
+            <constraints/>
+          </vspacer>
+          <component id="4c520" class="javax.swing.JLabel" binding="computerLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value=""/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="4432c" binding="buttonPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b3f76" class="javax.swing.JButton" binding="rockButton">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="2"/>
+              <text value="Rock"/>
+            </properties>
+          </component>
+          <vspacer id="89209">
+            <constraints/>
+          </vspacer>
+          <component id="47d49" class="javax.swing.JButton" binding="paperButton">
+            <constraints/>
+            <properties>
+              <text value="Paper"/>
+            </properties>
+          </component>
+          <vspacer id="70beb">
+            <constraints/>
+          </vspacer>
+          <component id="507b1" class="javax.swing.JButton" binding="scissorsButton">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <text value="Scissors"/>
+            </properties>
+          </component>
+          <vspacer id="b3a21">
+            <constraints/>
+          </vspacer>
+          <component id="6781" class="javax.swing.JButton" binding="newGameButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="New Game"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

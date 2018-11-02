@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="0" name="edu.dcccd.RPSUtilTest" time="0.009" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2018.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="E:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
+    <property name="java.vm.version" value="25.172-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Users\Bill\Documents\_Brookhaven\2018FA-INEW-2438 Advanced Java"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Users\Bill\Documents\_Brookhaven\2018FA-INEW-2438 Advanced Java\Lesson1"/>
+    <property name="java.runtime.version" value="1.8.0_172-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="E:\Program Files\Java\jdk1.8.0_172\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\billf\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\billf\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\182.4129.33\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="E:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-10.0.2\bin;C:\Program Files (x86)\Groovy\Groovy-2.5.2\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Cloud Foundry;C:\ProgramData\chocolatey\bin;E:\springsource\apache-maven-3.5.4\bin;C:\Users\billf\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\billf\AppData\Roaming\Dashlane\6.2.0.12026\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\billf\AppData\Roaming\Dashlane\6.2.0.12026\ucrt;C:\Users\billf\AppData\Roaming\Dashlane\6.2.0.12026\bin\Qt;C:\Users\billf\AppData\Roaming\Dashlane\6.2.0.12026\ucrt;C:\Users\billf\AppData\Roaming\Dashlane\6.2.0.12026\bin\Ssl;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\billf"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="billf"/>
+    <property name="java.class.path" value="C:\Users\billf\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\182.4129.33\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Users\billf\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\182.4129.33\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="E:\Program Files\Java\jdk1.8.0_172\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.2 package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_172"/>
+    <property name="java.ext.dirs" value="E:\Program Files\Java\jdk1.8.0_172\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar;E:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar;E:\Program Files\Java\jdk1.8.0_172\jre\lib\sunrsasign.jar;E:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar;E:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar;E:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar;E:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar;E:\Program Files\Java\jdk1.8.0_172\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\billf\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\182.4129.33\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="edu.dcccd.RPSUtilTest" name="testRockScissors" time="0.008"/>
+  <testcase classname="edu.dcccd.RPSUtilTest" name="testTie" time="0"/>
+  <testcase classname="edu.dcccd.RPSUtilTest" name="testPaperScissors" time="0.001"/>
+  <testcase classname="edu.dcccd.RPSUtilTest" name="testPaperRock" time="0"/>
+  <testcase classname="edu.dcccd.RPSUtilTest" name="testScissorsPaper" time="0"/>
+  <testcase classname="edu.dcccd.RPSUtilTest" name="testRockPaper" time="0"/>
+  <testcase classname="edu.dcccd.RPSUtilTest" name="testScissorsRock" time="0"/>
+</testsuite>
