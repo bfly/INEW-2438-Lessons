@@ -1,0 +1,5 @@
+INEW 2438,Advanced Java,Bill Fly,2018FA,Online,4
+ITSE 2417,Intro. Java,Bill Fly,2018FA,Online,4
+ITSE 2417,Intro. Java,Villarreal,2018FA,MW 5:40-7:00pm,4
+ITSE 1429,Programming Logic & Design,Milligan,2018FA,Online,4
+ITSE 1429,Programming Logic & Design,Villarreal,2018FA,T 7:10-9:50pm,4
